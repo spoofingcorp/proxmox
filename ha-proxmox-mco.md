@@ -43,7 +43,7 @@ journalctl -u pve-ha-crm --no-pager -n 50
 ### **5. Logs d'une VM spécifique en HA**
 Si vous voulez voir pourquoi une VM spécifique a été déplacée ou redémarrée, vous pouvez rechercher son nom ou son ID dans les logs :
 ```bash
-grep "VMID" /var/log/pve-ha.log
+en cours de correction
 ```
 (remplacez **VMID** par l'ID de la VM concernée)
 
@@ -159,7 +159,7 @@ Tu peux aussi modifier certains paramètres directement via `ha-manager` :
   ```
 - **Test les logs après modification :**
   ```bash
-  tail -f /var/log/pve-ha.log
+  en cours de correction
   ```
 - **Ne baisse pas trop `watchdog-timeout` pour éviter les faux positifs !**
 
@@ -182,7 +182,7 @@ Si tu veux modifier la configuration manuellement, tu peux toujours éditer `/et
 ### **:pushpin: Vérifier et appliquer les changements**
 Après toute modification, il est bon de vérifier les logs HA :
 ```bash
-tail -f /var/log/pve-ha.log
+en cours de correction
 ```
 Et si nécessaire, recharger la configuration HA :
 ```bash
