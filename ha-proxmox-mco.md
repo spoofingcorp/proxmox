@@ -23,14 +23,9 @@ ha-manager status
 ```
 
 ### **2. Logs détaillés du service HA**
-Les logs spécifiques à la haute disponibilité sont stockés dans `/var/log/pve-ha.log`. Vous pouvez les afficher avec :
-```bash
-tail -f /var/log/pve-ha.log
-```
-ou
-```bash
-less /var/log/pve-ha.log
-```
+Les logs spécifiques à la haute disponibilité sont stockés dans `changement de dossier log`. Vous pouvez les afficher avec :
+
+En cours de construction
 
 ### **3. Logs du gestionnaire de cluster (Corosync)**
 Les logs de Corosync peuvent également fournir des informations sur la perte de nœuds ou la communication entre les membres du cluster :
