@@ -13,17 +13,17 @@ https://drive.google.com/file/d/1CP1FzBqUH_aI__W5NpYJnIZpdEm6yn22/view?usp=drive
 
 
 *   **Documentation officielle :** Guide d'administration complet de Proxmox VE (référence technique globale).
-*   **Topologies réseau :** Schémas d'architecture réseau incluant les VLANs, le stockage (Ceph/TrueNAS) et les interfaces physiques,.
 
 https://drive.google.com/file/d/1JlAgRC0lf2Irm0DOAlpbZljB7hmtfm6e/view?usp=drivesdk
 
-### 2. Configuration Réseau
-Détails sur la configuration des interfaces, des switchs virtuels et du Software-Defined Networking (SDN).
+*   **Topologies réseau :** Schémas d'architecture réseau incluant les VLANs, le stockage (Ceph/TrueNAS) et les interfaces physiques,.
 
 https://drive.google.com/file/d/18ie8wiAlHtGuLu-uzXsxWAGE0xWREMd0/view?usp=drivesdk
 
 https://drive.google.com/file/d/1pEFwpwH5ZZP6d41CXlpjcaGucTB162nc/view?usp=drivesdk
 
+### 2. Configuration Réseau
+Détails sur la configuration des interfaces, des switchs virtuels et du Software-Defined Networking (SDN).
 
 *   **Linux Bridge vs Open vSwitch (OVS) :** Guide comparatif, avantages/inconvénients et cas d'usage pour choisir entre le réseau standard et OVS.
 
