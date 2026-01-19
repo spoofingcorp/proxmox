@@ -162,11 +162,12 @@ https://docs.google.com/document/d/1FM2hgh5QnqgmsaEd5uoYSxyXSLQz6FboARu9Si6gdpg/
 Sécurisation de l'infrastructure et gestion des utilisateurs.
 
 *   **Pare-feu (Firewall) :**
-    *   Guide de configuration du pare-feu à trois niveaux (Datacenter, Nœud, VM) et création d'IPSets.
+
+*   **Guide de configuration du pare-feu à trois niveaux (Datacenter, Nœud, VM) et création d'IPSets.**
 
 https://docs.google.com/document/d/1-sJwm6MJfYxVjs_RKGTDKnfW8jPgtCZaryPuthbz5fc/edit?usp=drivesdk
 
-    *   Gestion du pare-feu en ligne de commande (CLI).
+*   **Gestion du pare-feu en ligne de commande (CLI).**
 
 https://docs.google.com/document/d/1xrqDIPBzpz2yJcWnc_uQpkj7pnm-FyHVEtV9rZ47P9I/edit?usp=drivesdk
 
@@ -177,12 +178,12 @@ https://docs.google.com/document/d/1DhoeVmZdVaWpUbcboUcOPBRjzruMtXSu1A1kIp7pXdY/
 
 
 *   **Double Facteur (2FA/MFA) :**
-    *   Mise en place de l'authentification TOTP (Google Authenticator, etc.).
+*   **Mise en place de l'authentification TOTP (Google Authenticator, etc.).**
 
 
 https://docs.google.com/document/d/1_IfgsXqbedp-oz1OerOtdSV6SnDWP_dtbF3ErvB-QNk/edit?usp=drivesdk
 
-    *   Sécurisation avec des clés matérielles YubiKey.
+*   **Sécurisation avec des clés matérielles YubiKey.**
 
 https://docs.google.com/document/d/1SRhW7xMijO3eFbfzd-ZXzewgadl8sVOH2Das-A-rudg/edit?usp=drivesdk
 
