@@ -84,16 +84,16 @@ https://docs.google.com/document/d/1CM8ecHdIMFeLesBKiz3XrvLcZFEMwgm-90ZbuQvn4wQ/
 
 *   **Gestion des disques virtuels :**
 
-    *   Guide pour déplacer, agrandir, réassigner, et prendre des snapshots de disques.
+    *   **Guide pour déplacer, agrandir, réassigner, et prendre des snapshots de disques.**
 
 https://docs.google.com/document/d/1MZDze___325SW3kpxef3Pk_39Ii8RtWuWeJfDsYmzY8/edit?usp=drivesdk
 
-    *   Procédures pour l'ajout à chaud (Hot-Add), la migration de stockage (Live Storage Migration) et la conversion de formats (qcow2/raw/vmdk).
+    *   **Procédures pour l'ajout à chaud (Hot-Add), la migration de stockage (Live Storage Migration) et la conversion de formats (qcow2/raw/vmdk).**
 
 https://docs.google.com/document/d/1nHg94Vv5IZdH84Kl9MQAgJJlx5hFyyZ3Bm4R_s7lIyg/edit?usp=drivesdk
 
 
-    *   Récupération et ré-inventaire d'une VM à partir d'un disque orphelin.
+    *   **Récupération et ré-inventaire d'une VM à partir d'un disque orphelin.**
 
 https://docs.google.com/document/d/1dS7m--nmH56NFLsBtw_5g7KRizUM66OfHmWL4YMmoH0/edit?usp=drivesdk
 
