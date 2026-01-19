@@ -11,10 +11,13 @@ https://drive.google.com/file/d/1EXScXt_k7JE0rH3L5S8QXVWSp5LDxBBJ/view?usp=drive
 
 https://drive.google.com/file/d/1CP1FzBqUH_aI__W5NpYJnIZpdEm6yn22/view?usp=drivesdk
 
-* **Support de formation complet couvrant l'administration avancée : mise en cluster, stockage distribué (Ceph/iSCSI), haute disponibilité et procédures de maintenance (MCO)**
+* **Support de formation complet couvrant l'administration avancée : mise en cluster, stockage distribué (Ceph/iSCSI), haute disponibilité et procédures de maintenance (MCO) - Auteur Rémi BRUSSE**
 
 https://docs.google.com/document/d/11PGR87DC91-0hleWjD7oEIYov6yfE-k47tn6ipU0i10/edit?usp=sharing
 
+* **Support de formation Dawan - Proxmox**
+
+https://hedgedoc.dawan.fr/ZKT26S6pRRiRA0YI7U1rhA
 
 *   **Documentation officielle :** Guide d'administration complet de Proxmox VE (référence technique globale).
 
