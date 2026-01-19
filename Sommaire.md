@@ -126,30 +126,76 @@ https://docs.google.com/document/d/1fC1xwFgEgL4VO8YIw8J9AIS826nht5RGu42RvqkJJJM/
 Gestion du cycle de vie du cluster et des nœuds.
 
 *   **Fonctionnement du Cluster :** Comprendre le Quorum, Corosync et les mécanismes de protection (Fencing).
+
+https://docs.google.com/document/d/10J-VeaCyQ-kWviIEB4erEK97Kxb2oV7h96GsW5pwvhI/edit?usp=drivesdk
+
+
 *   **Configuration de la HA :** Mise en place des groupes de haute disponibilité et politiques d'arrêt.
+
+https://docs.google.com/document/d/14xSnk100VspqOPAtnL0xoYMCgkH45F1m7D-cpSY7cEI/edit?usp=drivesdk
+
 *   **Gestion des Nœuds :**
     *   Procédure pour mettre un nœud en mode maintenance.
+
+https://docs.google.com/document/d/1OMitywVnNpt5aOEYF1Xt1N-LxmJbiDvcX46v18H6KUU/edit?usp=drivesdk
+
     *   Procédure pour supprimer proprement un nœud du cluster.
+
+https://docs.google.com/document/d/1ebD0lQfE03A7gtiSt-atajVrWodrMC7jY_dDj4NkbxA/edit?usp=drivesdk
+
     *   Procédure (risquée) pour renommer un nœud.
+
+https://docs.google.com/document/d/11z6CR171DUjmHh51tpTSMDhOVAVfX-nuzbe6vI1aV-U/edit?usp=drivesdk
+
 *   **Dépannage Cluster :** Commandes CLI pour diagnostiquer Corosync et les problèmes de Quorum.
+
+https://docs.google.com/document/d/1Y6lowRTuY9KcZoZnATTA9vlmFAvAy7xE7AHPqxfok2w/edit?usp=drivesdk
+
+
 *   **Maintenance Opérationnelle (MCO) :** Commandes CLI pour la gestion des verrous (locks), des snapshots et des configurations.
+
+https://docs.google.com/document/d/1FM2hgh5QnqgmsaEd5uoYSxyXSLQz6FboARu9Si6gdpg/edit?usp=drivesdk
+
 
 ### 6. Sécurité et Gestion des Accès
 Sécurisation de l'infrastructure et gestion des utilisateurs.
 
 *   **Pare-feu (Firewall) :**
     *   Guide de configuration du pare-feu à trois niveaux (Datacenter, Nœud, VM) et création d'IPSets.
+
+https://docs.google.com/document/d/1-sJwm6MJfYxVjs_RKGTDKnfW8jPgtCZaryPuthbz5fc/edit?usp=drivesdk
+
     *   Gestion du pare-feu en ligne de commande (CLI).
+
+https://docs.google.com/document/d/1xrqDIPBzpz2yJcWnc_uQpkj7pnm-FyHVEtV9rZ47P9I/edit?usp=drivesdk
+
+
 *   **Authentification et Rôles :** Exercices sur la création d'utilisateurs, de rôles personnalisés, de pools de ressources et l'intégration Active Directory.
+
+https://docs.google.com/document/d/1DhoeVmZdVaWpUbcboUcOPBRjzruMtXSu1A1kIp7pXdY/edit?usp=drivesdk
+
+
 *   **Double Facteur (2FA/MFA) :**
     *   Mise en place de l'authentification TOTP (Google Authenticator, etc.).
+
+
+https://docs.google.com/document/d/1_IfgsXqbedp-oz1OerOtdSV6SnDWP_dtbF3ErvB-QNk/edit?usp=drivesdk
+
     *   Sécurisation avec des clés matérielles YubiKey.
+
+https://docs.google.com/document/d/1SRhW7xMijO3eFbfzd-ZXzewgadl8sVOH2Das-A-rudg/edit?usp=drivesdk
+
+
 *   **Certificats SSL :** Installation de certificats (AD CS ou Let's Encrypt).
+
+https://docs.google.com/document/d/1fvO_qEl2kGo6F6fS4YIQcKoLeUWuHomqfMrZ3HyWhF8/edit?usp=drivesdk
 
 ### 7. Sauvegarde (Backup)
 Stratégies et outils de sauvegarde.
 
 *   **Proxmox Backup Server (PBS) :** Installation, configuration des datastores et intégration avec le cluster Proxmox VE.
+
+https://docs.google.com/document/d/1c_EmBgeOoi9iWgh-azQNRnJrySnqhvG1PrsRcPv1S0E/edit?usp=drivesdk
 
 
 
