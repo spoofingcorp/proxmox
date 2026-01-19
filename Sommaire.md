@@ -4,18 +4,6 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 ---
 
-## 📍 Table des Matières
-
-1. [Introduction et Architecture Générale](https://www.google.com/search?q=%231-introduction-et-architecture-g%C3%A9n%C3%A9rale)
-2. [Configuration Réseau](https://www.google.com/search?q=%232-configuration-r%C3%A9seau)
-3. [Stockage (Storage)](https://www.google.com/search?q=%233-stockage-storage)
-4. [Machines Virtuelles (VM)](https://www.google.com/search?q=%234-machines-virtuelles-vm)
-5. [Cluster, Haute Disponibilité (HA) et Maintenance](https://www.google.com/search?q=%235-cluster-haute-disponibilit%C3%A9-ha-et-maintenance)
-6. [Sécurité et Gestion des Accès](https://www.google.com/search?q=%236-s%C3%A9curit%C3%A9-et-gestion-des-acc%C3%A8s)
-7. [Sauvegarde (Backup)](https://www.google.com/search?q=%237-sauvegarde-backup)
-
----
-
 ## 🏗️ 1. Introduction et Architecture Générale
 
 *Cette section couvre les bases de Proxmox VE, son architecture et la topologie du labo.*
