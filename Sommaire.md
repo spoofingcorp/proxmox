@@ -40,12 +40,12 @@ https://docs.google.com/document/d/1Tf4QAUuIaB-8HUcgIcic6A6kv1qMSa110CR6o04kreQ/
 
 
 *   **Software-Defined Network (SDN) :**
-    *   Introduction aux Zones (Simple, VLAN, VXLAN, EVPN) et VNets.
+*   **Introduction aux Zones (Simple, VLAN, VXLAN, EVPN) et VNets.**
 
 https://docs.google.com/document/d/1w1xu7hegrkQ9StqCb9g2kpiRNVok4Ry-0JDXf6yOv4E/edit?usp=drivesdk
 
 
-    *   Extension d'un réseau de niveau 2 (L2) via VXLAN et ponts VLAN-aware.
+*   **Extension d'un réseau de niveau 2 (L2) via VXLAN et ponts VLAN-aware.**
 
 
 https://docs.google.com/document/d/1iseSIh7DpxMtUcUpT04JX9jghep4SgjmN0WHbIh_cAk/edit?usp=drivesdk
