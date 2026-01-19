@@ -1,7 +1,3 @@
-Voici une version optimisée en Markdown pour GitHub. J'ai ajouté une table des matières, utilisé des icônes pour la lisibilité et transformé les liens bruts en liens cliquables sur les titres pour un rendu plus professionnel.
-
----
-
 # 📚 Centre de Ressources Proxmox VE
 
 Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration et des supports de formation pour la mise en place et l'administration d'une infrastructure **Proxmox Virtual Environment**.
@@ -124,6 +120,11 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 *Stratégies et outils de sauvegarde.*
 
 * **[Proxmox Backup Server (PBS)](https://docs.google.com/document/d/1c_EmBgeOoi9iWgh-azQNRnJrySnqhvG1PrsRcPv1S0E/edit?usp=drivesdk)** : Installation, configuration des datastores et intégration au cluster.
+
+______________________
+
+## Old Summary
+
 
 ### 1. Introduction et Architecture Générale
 Cette section couvre les bases de Proxmox VE, son architecture et la topologie du labo.
