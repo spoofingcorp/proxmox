@@ -69,24 +69,58 @@ https://docs.google.com/document/d/13XXjIetLUGDpZPN775us-9HeVVYgFpWU1jpQM6eVSUU/
 
 *   **SAN Fibre Channel (NetApp) :** Configuration du Multipathing et connexion à une baie NetApp en FC.
 
-
+https://docs.google.com/document/d/1WrT0aVb3ufmNfGdwM8wYY92PEPLCIYXE3huL_tSkYYs/edit?usp=drivesdk
 
 
 *   **SAN iSCSI (QSAN) :** Guide de configuration du stockage iSCSI, MPIO et LVM avec des baies QSAN.
+
+
+https://drive.google.com/file/d/1sJ9EoYFe6wNvJBcu9r1rg31z4i1u3tK6/view?usp=drivesdk
+
 *   **ZFS :** Mise en place de pools ZFS et configuration de la réplication (ZFS Replication) entre nœuds.
+
+https://docs.google.com/document/d/1CM8ecHdIMFeLesBKiz3XrvLcZFEMwgm-90ZbuQvn4wQ/edit?usp=drivesdk
+
+
 *   **Gestion des disques virtuels :**
+
     *   Guide pour déplacer, agrandir, réassigner, et prendre des snapshots de disques.
+
+https://docs.google.com/document/d/1MZDze___325SW3kpxef3Pk_39Ii8RtWuWeJfDsYmzY8/edit?usp=drivesdk
+
     *   Procédures pour l'ajout à chaud (Hot-Add), la migration de stockage (Live Storage Migration) et la conversion de formats (qcow2/raw/vmdk).
+
+https://docs.google.com/document/d/1nHg94Vv5IZdH84Kl9MQAgJJlx5hFyyZ3Bm4R_s7lIyg/edit?usp=drivesdk
+
+
     *   Récupération et ré-inventaire d'une VM à partir d'un disque orphelin.
+
+https://docs.google.com/document/d/1dS7m--nmH56NFLsBtw_5g7KRizUM66OfHmWL4YMmoH0/edit?usp=drivesdk
+
 
 ### 4. Machines Virtuelles (VM)
 Bonnes pratiques pour la création, l'optimisation et la gestion des VMs.
 
 *   **Linux :** Base de référence et optimisations pour les VMs Linux (Ubuntu/Debian).
+
+https://docs.google.com/document/d/1eqsj3saC6P3VpsWoL1pNHPk9GrUfo9LkjtlldgEl42I/edit?usp=drivesdk
+
 *   **Windows Server :** Base de référence et optimisations pour les VMs Windows (VirtIO, Drivers).
+
+https://docs.google.com/document/d/1yH413DfJmH-2mT7DnIYuDBZ6vQWW94ZRaopeCToeGjg/edit?usp=drivesdk
+
 *   **Bonnes pratiques générales :** Choix du type de CPU, configuration NUMA, cache disque et options TRIM/Discard.
+
+https://docs.google.com/document/d/1hRUDhRb0bSBzcegc91eW7KOWgR-ZiymB-iqdMjOyxKo/edit?usp=drivesdk
+
 *   **QEMU Guest Agent :** Importance, installation et interaction avec l'hyperviseur pour des arrêts propres et des backups cohérents.
+
+https://docs.google.com/document/d/13ioy7rSHnRiXdYMXszGHMgvxcBeCgV2iR0NrwHoFy7c/edit?usp=drivesdk
+
 *   **Migration depuis ESXi :** Procédures d'importation de VMs VMware, conversion OVF/OVA et création de templates.
+
+https://docs.google.com/document/d/1fC1xwFgEgL4VO8YIw8J9AIS826nht5RGu42RvqkJJJM/edit?usp=drivesdk
+
 
 ### 5. Cluster, Haute Disponibilité (HA) et Maintenance
 Gestion du cycle de vie du cluster et des nœuds.
