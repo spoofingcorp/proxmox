@@ -109,6 +109,10 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 * **[Proxmox Backup Server (PBS)](https://docs.google.com/document/d/1c_EmBgeOoi9iWgh-azQNRnJrySnqhvG1PrsRcPv1S0E/edit?usp=drivesdk)** : Installation, configuration des datastores et intégration au cluster.
 
+* **[NFS mount on PBS](https://www.derekseaman.com/2025/08/how-to-synology-nfs-for-proxmox-backup-server-datastore-2025.html)** : Point de montage NFS sur Proxmox Backup Server.
+
+* **[Doc NetApp / PBS Configuration & Jobs / S3 / Hook Scripts Exemple](https://docs.netapp.com/fr-fr/netapp-solutions-virtualization/proxmox/proxmox-wkld-dp-pbs.html#cr%C3%A9er-des-t%C3%A2ches-de-synchronisation-locale-vers-le-stockage-ontap-s3)** :  Configurations, opérations de sauvegarde, procédures de restauration, scripts Hook pour sauvegarder BDD avant backup...
+
 ## 🚀 8. Upgrade Proxmox 8to9
 
 * **[6to9](https://www.it-connect.fr/comment-migrer-de-proxmox-ve-8-a-proxmox-ve-9/)** : Comment migrer de Proxmox VE 8 à Proxmox VE 9 ?
