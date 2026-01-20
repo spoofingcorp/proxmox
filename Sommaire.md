@@ -109,9 +109,14 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 * **[Proxmox Backup Server (PBS)](https://docs.google.com/document/d/1c_EmBgeOoi9iWgh-azQNRnJrySnqhvG1PrsRcPv1S0E/edit?usp=drivesdk)** : Installation, configuration des datastores et intégration au cluster.
 
+## 🚀 8. Upgrade Proxmox 8to9
+
+* **[6to9](https://www.it-connect.fr/comment-migrer-de-proxmox-ve-8-a-proxmox-ve-9/)** : Comment migrer de Proxmox VE 8 à Proxmox VE 9 ?
+
+
 ______________________
 
-[Old SUmmary](https://github.com/spoofingcorp/proxmox/blob/main/old-summary.md)
+[Old-summary](https://github.com/spoofingcorp/proxmox/blob/main/old-summary.md)
 
 
 
