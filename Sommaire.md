@@ -30,6 +30,7 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 * **[Recommandations réseau](https://docs.google.com/document/d/1Tf4QAUuIaB-8HUcgIcic6A6kv1qMSa110CR6o04kreQ/edit?usp=drivesdk)** : Bonnes pratiques pour l'isolation des flux (Management, Corosync, Stockage, Migration).
 * **Software-Defined Network (SDN) :**
 * [Introduction aux Zones](https://docs.google.com/document/d/1w1xu7hegrkQ9StqCb9g2kpiRNVok4Ry-0JDXf6yOv4E/edit?usp=drivesdk) : Simple, VLAN, VXLAN, EVPN et VNets.
+* [VXLAN - Front > Backend BDD](https://github.com/spoofingcorp/proxmox/blob/main/SDN%20-%20VXLAN.md) : Mettre en place un VXLAN entre les PVE pour isoler un front d'un back sans configuration réseau physique
 * [Extension L2 via VXLAN](https://docs.google.com/document/d/1iseSIh7DpxMtUcUpT04JX9jghep4SgjmN0WHbIh_cAk/edit?usp=drivesdk) : Utilisation des ponts VLAN-aware.
 
 
@@ -115,7 +116,7 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 ## 🚀 8. Upgrade Proxmox 8to9
 
-* **[6to9](https://www.it-connect.fr/comment-migrer-de-proxmox-ve-8-a-proxmox-ve-9/)** : Comment migrer de Proxmox VE 8 à Proxmox VE 9 ?
+* **[8to9](https://www.it-connect.fr/comment-migrer-de-proxmox-ve-8-a-proxmox-ve-9/)** : Comment migrer de Proxmox VE 8 à Proxmox VE 9 ?
 
 
 ______________________
