@@ -60,6 +60,8 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 *Bonnes pratiques pour la création, l'optimisation et la gestion des VMs.*
 
+* **[Bonne pratique Windows 2025](https://pve.proxmox.com/wiki/Windows_2025_guest_best_practices)** : Installer Windows Server 2025
+
 * **[Optimisation Linux](https://docs.google.com/document/d/1eqsj3saC6P3VpsWoL1pNHPk9GrUfo9LkjtlldgEl42I/edit?usp=drivesdk)** : Base de référence pour Ubuntu/Debian.
 * **[Optimisation Windows Server](https://docs.google.com/document/d/1yH413DfJmH-2mT7DnIYuDBZ6vQWW94ZRaopeCToeGjg/edit?usp=drivesdk)** : Drivers VirtIO et configurations spécifiques.
 * **[Bonnes pratiques générales](https://docs.google.com/document/d/1hRUDhRb0bSBzcegc91eW7KOWgR-ZiymB-iqdMjOyxKo/edit?usp=drivesdk)** : Choix CPU, NUMA, cache disque et TRIM/Discard.
