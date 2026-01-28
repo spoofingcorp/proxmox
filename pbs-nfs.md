@@ -99,7 +99,7 @@ nano /etc/fstab
 Ajoutez la ligne suivante à la fin du fichier (remplacez `192.168.1.X` par l'IP réelle de votre serveur Proxmox hôte) :
 
 ```text
-192.168.1.X:/srv/nfs/pbs  /mnt/nfs_backup  nfs  defaults,vers=3  0  0
+192.168.1.X:/mnt/pve/pbs  /mnt/nfs_backup  nfs  defaults,vers=3  0  0
 
 ```
 
