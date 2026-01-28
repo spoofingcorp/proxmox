@@ -94,4 +94,10 @@
   - `ha-manager remove <resource>` : Supprime une ressource de HA.
 
 
+## CEPH Commande debug
+
+ `ceph crash archive-all` : Cleaner les evenements dans le Dashboard CEPH Health
+
+
+
   
