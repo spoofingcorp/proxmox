@@ -14,10 +14,10 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 * **[Support de formation Dawan - Proxmox](https://hedgedoc.dawan.fr/ZKT26S6pRRiRA0YI7U1rhA)** : Notes de formation complémentaires.
 * **[Documentation officielle](https://drive.google.com/file/d/1JlAgRC0lf2Irm0DOAlpbZljB7hmtfm6e/view?usp=drivesdk)** : Guide d'administration complet (Référence technique).
 * **Topologies réseau :** Schémas d'architecture incluant VLANs, Ceph, TrueNAS et interfaces physiques.
-* [Schéma d'architecture 1](https://drive.google.com/file/d/18ie8wiAlHtGuLu-uzXsxWAGE0xWREMd0/view?usp=drivesdk)
-* [Schéma d'architecture 2](https://drive.google.com/file/d/1pEFwpwH5ZZP6d41CXlpjcaGucTB162nc/view?usp=drivesdk)
+* **[Schéma d'architecture 1](https://drive.google.com/file/d/18ie8wiAlHtGuLu-uzXsxWAGE0xWREMd0/view?usp=drivesdk)**
+* **[Schéma d'architecture 2](https://drive.google.com/file/d/1pEFwpwH5ZZP6d41CXlpjcaGucTB162nc/view?usp=drivesdk)**
 
-
+* **[API Proxmox](https://pve.proxmox.com/pve-docs/api-viewer/)**
 
 ---
 
