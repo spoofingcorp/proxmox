@@ -11,7 +11,7 @@ Cette étape crée les "tuyaux" virtuels entre vos serveurs physiques.
  * Cliquez sur Add > VXLAN.
  * Remplissez les champs :
    * ID : sdn-vxlan (ou le nom de votre choix).
-   * Peers Address List : Entrez les adresses IP physiques de gestion de tous vos nœuds Proxmox (ex: 192.168.1.10,192.168.1.11).
+   * Peers Address List : Entrez les adresses IP physiques de gestion de tous vos nœuds Proxmox (ex: 10.40.0.xx,10.40.0.xx).
    * MTU : Laissez par défaut (généralement 1450) ou ajustez selon votre réseau physique (voir note MTU en bas).
  * Cliquez sur Add.
 2. Créer le VNet (Le Switch Virtuel)
