@@ -21,10 +21,10 @@ apt install nfs-kernel-server -y
 Nous allons créer le dossier `/srv/nfs/pbs` et ajuster les permissions pour que les clients puissent y écrire.
 
 ```bash
-mkdir -p /srv/nfs/pbs
+mkdir -p /mnt/pbs
 # Donner les droits à l'utilisateur 'nobody' (standard pour NFS)
-chown -R nobody:nogroup /srv/nfs/pbs
-chmod 777 /srv/nfs/pbs
+chown -R nobody:nogroup /mnt/pbs
+chmod 777 /mnt/pbs
 
 ```
 
@@ -39,7 +39,7 @@ nano /etc/exports
 
 Ajoutez la ligne suivante à la fin du fichier pour autoriser tout votre sous-réseau :
 
-`/srv/nfs/pbs 192.168.1.0/24(rw,sync,no_subtree_check)`
+`/mnt/pbs 192.168.1.0/24(rw,sync,no_subtree_check)`
 
 ### Détails des options :
 
