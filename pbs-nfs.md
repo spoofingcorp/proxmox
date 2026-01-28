@@ -23,7 +23,7 @@ Nous allons créer le dossier `/mnt/pve/pbs` en directory depuis l'UI Proxmox et
 ```bash
 mkdir -p /mnt/pve/pbs
 # Donner les droits à l'utilisateur 'nobody' (standard pour NFS)
-chown -R nobody:nogroup /mnt/pbs
+chown -R nobody:nogroup /mnt/pve/pbs
 chmod 777 /mnt/pve/pbs
 
 ```
