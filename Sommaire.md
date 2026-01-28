@@ -74,6 +74,8 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 *Gestion du cycle de vie du cluster et des nœuds.*
 
+* **[Scénario d'une panne](https://docs.google.com/document/d/1NShZLLMUNadUo7qPYhj4UYAdKdzLGpEmg4nYK_18nqU/edit?usp=sharing)** : Anatomie d'une Panne avec Corosync
+
 * **[Fonctionnement du Cluster](https://docs.google.com/document/d/10J-VeaCyQ-kWviIEB4erEK97Kxb2oV7h96GsW5pwvhI/edit?usp=drivesdk)** : Quorum, Corosync et Fencing.
 * **[Configuration de la HA](https://docs.google.com/document/d/14xSnk100VspqOPAtnL0xoYMCgkH45F1m7D-cpSY7cEI/edit?usp=drivesdk)** : Groupes HA et politiques d'arrêt.
 * **Gestion des Nœuds :**
