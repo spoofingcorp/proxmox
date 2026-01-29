@@ -81,6 +81,7 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 * **Gestion des Nœuds :**
 * [Mode Maintenance](https://docs.google.com/document/d/1OMitywVnNpt5aOEYF1Xt1N-LxmJbiDvcX46v18H6KUU/edit?usp=drivesdk) : Procédure de mise hors service temporaire.
 * [Suppression d'un nœud](https://docs.google.com/document/d/1ebD0lQfE03A7gtiSt-atajVrWodrMC7jY_dDj4NkbxA/edit?usp=drivesdk) : Procédure propre de retrait du cluster.
+* [Suppression d'un nœud avec CEPH](https://docs.google.com/document/d/1RsndKH8gveVNO9xE8AvccSSY6SiLgBsAvT-qdlJ8HV0/edit?usp=sharing)** : Procédure propre de retrait du cluster avec l'intégration de CEPH.
 * [Renommer un nœud](https://docs.google.com/document/d/11z6CR171DUjmHh51tpTSMDhOVAVfX-nuzbe6vI1aV-U/edit?usp=drivesdk) : Guide pas à pas (Procédure sensible).
 
 
