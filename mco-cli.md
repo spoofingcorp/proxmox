@@ -19,7 +19,7 @@ Pour passer un nœud en maintenance vis-à-vis du HA, il est préférable de dir
 systemctl stop pve-ha-lrm
 ```
 
-# Si vous devez intervenir sur le gestionnaire de cluster (CRM - Master)
+## Si vous devez intervenir sur le gestionnaire de cluster (CRM - Master)
 systemctl stop pve-ha-crm
 
 Nettoyer /etc/pve/ha/manager_status après retrait d'un hôte
