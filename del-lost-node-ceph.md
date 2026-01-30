@@ -19,15 +19,15 @@ C'est la priorité. Tant que le nœud est dans `corosync.conf`, le cluster le ch
 ```bash
 systemctl stop pve-ha-lrm
 systemctl stop pve-ha-crm
-systemctl stop pve-cluster
-systemctl stop corosync
+systemctl stop pve-cluster   # (s'il vous reste seulement 2 noeuds actifs)
+systemctl stop corosync      # (s'il vous reste seulement 2 noeuds actifs)
 
 ```
 
 
 2. **Passez le système de fichier en mode Local (Standalone)** pour autoriser l'écriture sans Quorum :
 ```bash
-pmxcfs -l
+pmxcfs -l   # (s'il vous reste seulement 2 noeuds actifs)
 
 ```
 
@@ -56,7 +56,7 @@ rm -rf /etc/pve/nodes/<NOM_DU_NOEUD_MORT>
 *Note : Assurez-vous d'avoir récupéré les fichiers `.conf` des VMs si vous comptez les restaurer ailleurs, sinon elles seront perdues de l'interface.*
 5. **Tuez le mode local :**
 ```bash
-killall pmxcfs
+killall pmxcfs  # (s'il vous reste seulement 2 noeuds actifs)
 
 ```
 
