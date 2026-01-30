@@ -17,12 +17,15 @@ Pour passer un nœud en maintenance vis-à-vis du HA, il est préférable de dir
 ```bash
 # Arrêter le gestionnaire de ressources local (LRM)
 systemctl stop pve-ha-lrm
+```
 
 # Si vous devez intervenir sur le gestionnaire de cluster (CRM - Master)
 systemctl stop pve-ha-crm
 
 Nettoyer /etc/pve/ha/manager_status après retrait d'un hôte
+
 Ce fichier contient l'état actuel de tous les services et le statut des nœuds vu par le CRM. Si un nœud a été supprimé brutalement ("crash" ou "force removal") et que le cluster HA reste bloqué, il faut parfois purger ce statut.
+
 Procédure de nettoyage :
  * Arrêter le service CRM sur TOUS les nœuds restants :
    systemctl stop pve-ha-crm
@@ -34,14 +37,20 @@ Procédure de nettoyage :
    systemctl start pve-ha-crm
 
    Le fichier sera régénéré proprement avec les membres actuels du cluster.
-2. Comprendre et Utiliser pmxcfs -l
+
+# 2. Comprendre et Utiliser pmxcfs -l
+
 Cette commande est utile lorsque vous perdez le Quorum et que le système de fichiers /etc/pve devient inaccessible ou en lecture seule.
 Contexte
+
 Normalement, /etc/pve est un système de fichiers distribué (pmxcfs) qui nécessite le Quorum pour autoriser l'écriture. Si vous perdez trop de nœuds, vous ne pouvez plus modifier /etc/pve/corosync.conf pour retirer les nœuds morts.
+
 La commande : pmxcfs -l
+
 Le flag -l signifie Local Mode.
  * Arrêter le service cluster :
    Il faut d'abord arrêter le service qui monte normalement le système de fichiers.
+
    systemctl stop pve-cluster
 
  * Monter en mode local :
@@ -55,10 +64,12 @@ Le flag -l signifie Local Mode.
    killall pmxcfs
 systemctl start pve-cluster
 
-3. Nettoyage Ceph après retrait d'un hôte
+# 3. Nettoyage Ceph après retrait d'un hôte
 Après avoir supprimé un nœud Proxmox via pvecm delnode, les traces de ce nœud restent souvent dans la CRUSH Map de Ceph.
+
 La commande : ceph osd crush remove
 Si vous avez déjà supprimé les OSDs du nœud, le "bucket" (l'hôte logique) existe toujours.
+
 Procédure complète :
  * Identifier le nom du bucket (hôte) à supprimer :
    ceph osd tree
@@ -80,8 +91,9 @@ ceph auth del mon.<nom-du-noeud>
  * Retirer un Monitor (MON) mort du quorum Ceph :
    ceph mon remove <nom-du-noeud>
 
-4. Cheat Sheet : Autres commandes MCO Utiles
+# 4. Cheat Sheet : Autres commandes MCO Utiles
 Cluster & Corosync
+
 | Commande | Description |
 |---|---|
 | pvecm status | État global du cluster Proxmox (Quorum, Nœuds). |
@@ -94,9 +106,10 @@ Ceph & OSD
 | ceph osd set noout | Empêche le rebalancement des données si un OSD tombe. Indispensable avant maintenance. |
 | ceph osd unset noout | À lancer une fois la maintenance terminée. |
 | ceph osd safe-to-destroy <osd.id> | Vérifie si la suppression d'un disque est sûre (pas de perte de données). |
-Gestion des fichiers de config verrouillés
+
+## Gestion des fichiers de config verrouillés
 Si une VM est bloquée (lock) suite à un crash :
-# Lister les fichiers
+## Lister les fichiers
 ls -l /etc/pve/qemu-server/
 
 # Déverrouiller une VM (ex: 100)
