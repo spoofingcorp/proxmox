@@ -67,6 +67,7 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 * **[Bonnes pratiques générales](https://docs.google.com/document/d/1hRUDhRb0bSBzcegc91eW7KOWgR-ZiymB-iqdMjOyxKo/edit?usp=drivesdk)** : Choix CPU, NUMA, cache disque et TRIM/Discard.
 * **[QEMU Guest Agent](https://docs.google.com/document/d/13ioy7rSHnRiXdYMXszGHMgvxcBeCgV2iR0NrwHoFy7c/edit?usp=drivesdk)** : Installation et interaction pour des backups cohérents.
 * **[Migration depuis ESXi](https://docs.google.com/document/d/1fC1xwFgEgL4VO8YIw8J9AIS826nht5RGu42RvqkJJJM/edit?usp=drivesdk)** : Importation VMware, conversion OVF/OVA et templates.
+* **[Memory/CPU HOTPLUG](https://pve.proxmox.com/wiki/Hotplug_(qemu_disk,nic,cpu,memory)#CPU_Hotplug)** : Mettre en place le Hotplug CPU et/ou Memoire
 
 ---
 
