@@ -60,10 +60,8 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 
 *Bonnes pratiques pour la création, l'optimisation et la gestion des VMs.*
 
+* **[Optimisation des I/O Disque](https://docs.google.com/document/d/1l3697yqzhNE1AVze3PR0sIcABiQ1fbDsniMoaRKyAlk/edit?usp=sharing)** Cache, IO Thread, Discard, SSD Emulation, Async IO
 * **[Bonne pratique Windows 2025](https://pve.proxmox.com/wiki/Windows_2025_guest_best_practices)** : Installer Windows Server 2025
-
-* **[Optimisation Linux](https://docs.google.com/document/d/1eqsj3saC6P3VpsWoL1pNHPk9GrUfo9LkjtlldgEl42I/edit?usp=drivesdk)** : Base de référence pour Ubuntu/Debian.
-* **[Optimisation Windows Server](https://docs.google.com/document/d/1yH413DfJmH-2mT7DnIYuDBZ6vQWW94ZRaopeCToeGjg/edit?usp=drivesdk)** : Drivers VirtIO et configurations spécifiques.
 * **[Bonnes pratiques générales](https://docs.google.com/document/d/1hRUDhRb0bSBzcegc91eW7KOWgR-ZiymB-iqdMjOyxKo/edit?usp=drivesdk)** : Choix CPU, NUMA, cache disque et TRIM/Discard.
 * **[QEMU Guest Agent](https://docs.google.com/document/d/13ioy7rSHnRiXdYMXszGHMgvxcBeCgV2iR0NrwHoFy7c/edit?usp=drivesdk)** : Installation et interaction pour des backups cohérents.
 * **[Migration depuis ESXi](https://docs.google.com/document/d/1fC1xwFgEgL4VO8YIw8J9AIS826nht5RGu42RvqkJJJM/edit?usp=drivesdk)** : Importation VMware, conversion OVF/OVA et templates.
