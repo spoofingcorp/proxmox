@@ -12,7 +12,7 @@ Ce dépôt regroupe l'ensemble de la documentation, des guides de configuration 
 * **[Guide complet de virtualisation](https://drive.google.com/file/d/1CP1FzBqUH_aI__W5NpYJnIZpdEm6yn22/view?usp=drivesdk)** : Tutoriel complet (Installation, stockage, réseau, VM/CT et supervision Zabbix/Grafana).
 * **[Support de formation : Administration Avancée](https://docs.google.com/document/d/11PGR87DC91-0hleWjD7oEIYov6yfE-k47tn6ipU0i10/edit?usp=sharing)** : Mise en cluster, Ceph/iSCSI, HA et MCO. *(Par Rémi BRUSSE)*.
 * **[Support de formation Dawan - Proxmox](https://hedgedoc.dawan.fr/ZKT26S6pRRiRA0YI7U1rhA)** : Notes de formation complémentaires.
-* **[Documentation officielle](https://drive.google.com/file/d/1JlAgRC0lf2Irm0DOAlpbZljB7hmtfm6e/view?usp=drivesdk)** : Guide d'administration complet (Référence technique).
+* **[Documentation officielle]([https://drive.google.com/file/d/1JlAgRC0lf2Irm0DOAlpbZljB7hmtfm6e/view?usp=drivesdk](https://pve.proxmox.com/pve-docs/pve-admin-guide.pdf))** : Guide d'administration complet Proxmox (Référence technique).
 * **Topologies réseau :** Schémas d'architecture incluant VLANs, Ceph, TrueNAS et interfaces physiques.
 * **[Schéma d'architecture 1](https://drive.google.com/file/d/18ie8wiAlHtGuLu-uzXsxWAGE0xWREMd0/view?usp=drivesdk)**
 * **[Schéma d'architecture 2](https://drive.google.com/file/d/1pEFwpwH5ZZP6d41CXlpjcaGucTB162nc/view?usp=drivesdk)**
